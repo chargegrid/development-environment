@@ -65,9 +65,9 @@ def generate_evses(country, serial, evse_count):
 	
 tenant_id = "2b563470-d849-408c-84cf-9f4e5ba0b483"
 file = "sample-txservice.sql"
-evse_ids_1 = generate_evses("NL", "AMP-0001", 5)
-evse_ids_2 = generate_evses("NL", "AMP-0002", 5)
-evse_ids_3 = generate_evses("NL", "AMP-0003", 5)
+evse_ids_1 = generate_evses("NL", "SPX-0001", 5)
+evse_ids_2 = generate_evses("NL", "SPX-0002", 5)
+evse_ids_3 = generate_evses("NL", "SPX-0003", 5)
 
 boxes = [evse_ids_1, evse_ids_2, evse_ids_3]
 

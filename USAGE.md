@@ -26,7 +26,7 @@ cd sample-data
 
 This will generate a years worth of transactions for all charge points of that tenant
 
-## Run the Charge Box simulator
+## Run the Charge Point simulator
 
 _Abusive Charge Point_ is a command line app that simulates one or more 
 charge boxes. It will exchange messages with Central System the same way 

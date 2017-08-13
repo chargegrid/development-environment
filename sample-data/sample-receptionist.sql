@@ -11,7 +11,7 @@ INSERT INTO tenants (id, name, name_key, description, default_operator_id, is_ac
   ('b8229fdc-cf2c-400a-be6d-65b1ec0da209', 'Tesla', 'tesla', NULL, 'TES', 'true');
 
 -- Daan & Alwik password: 'isuck123'
--- Bram & Hans password: 'test1234'
+-- Bram & Richard password: 'test1234'
 
 INSERT INTO users (id, first_name, last_name, email, password, job_title) VALUES
   ('e38fac6a-a9df-485e-8bcf-c4b958ad87c8', 'Daan', 'Debie', 'daan@example.com', 'bcrypt+sha512$b1d0d06a7c60abb07dfd808c89342053$12$cc09f7b08ac458503c32a8a48f0ebff2c5da9286a0619663', 'CEO'),

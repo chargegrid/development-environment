@@ -1,7 +1,7 @@
 import yaml
 from graphviz import Digraph
 
-dot = Digraph(comment='ChargeGrid architecture')
+dot = Digraph(comment='ChargeGrid dependencies')
 
 
 with open("docker-compose.yml", 'r') as dc_file:
@@ -14,4 +14,4 @@ with open("docker-compose.yml", 'r') as dc_file:
         for d in deps:
             d_name = d.split(":")[0]
             dot.edge(name, d_name)
-    dot.render('architecture', view=True)
+    dot.render('depencencies', view=True)

@@ -67,4 +67,4 @@ pip install
 python generate-dc-graph.py
 ```
 
-Then look for `architecture.pdf` in the project folder
+Then look for `dependencies.pdf` in the project folder
