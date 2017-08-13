@@ -25,4 +25,3 @@ check_status "receptionist" localhost:8075/policies
 check_status "central-system" localhost:8080/sessions
 check_status "pricing-service" localhost:8081/policies/12
 check_status "transaction-service" localhost:8082/transactions
-check_status "portal" localhost:3449

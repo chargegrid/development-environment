@@ -28,12 +28,6 @@ docker-compose up
 dc up rmq rmq_exchanges dynamodb -d
 ```
 
-**Run only the backend-services (and their dependencies), without the Portal**
-
-```
-./up-backend.sh
-```
-
 **Check status of all services**
 
 ```
@@ -49,11 +43,6 @@ Installation of httpie:
 brew install python
 pip install httpie
 ```
-
-**Run the portal**
-
-When you have all the backend services running, but want run the portal outside 
-of Docker, you can follow the instructions of the README.md in the _portal_ project.
 
 **Run RabbitMQ + PostgreSQL of services you want to work on**
 
